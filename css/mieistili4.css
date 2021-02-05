@@ -1,0 +1,32 @@
+#boxgradientelineare
+{
+    width: 350px;
+    height: 300px;
+    background-image: linear-gradient(to right, #FFFFFF 0%, #AACFEF 100%);
+}
+#boxgradienteradiale
+{
+    width: 350px;
+    height: 300px;
+    background-image: radial-gradient(circle, #FFFFFF 0%, #FF3300 100%);
+}
+#boxfont
+{   
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container
+{
+    display: flex;
+}
+
+@media screen and (max-width: 600px)
+{
+    #container
+    {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,19 @@
+footer
+{   
+    margin-top: 400px;
+    display: flex;
+    display: -webkit-flex;
+    padding: 6px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+footer #nome
+{
+    margin-left: 80px;
+} 
+footer #frase2
+{
+    margin-left: 60px;
+} 

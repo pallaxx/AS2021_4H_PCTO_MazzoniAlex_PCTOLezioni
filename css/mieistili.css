@@ -1,0 +1,73 @@
+/* la regola si applica a tuttgli gli elementi con classe .mieidiv 
+che discendono da elementi con classe .titolo*/
+.titolo .mieidiv{
+
+    background-color:red;
+}
+
+/* la regola si applica a tuttgli gli elementi con classe .mieidiv 
+figli di elemnti con classe .titolo*/
+.titolo>.mieidiv{
+
+    background-color:red;
+}
+
+/* la regola si applica a tuttgli gli elementi con classe .mieidiv con classe .titolo*/
+.titolo.mieidiv{
+
+    background-color:red !important;
+}
+
+/* Sono 2 regole: si applicano a tutti gli elementi che hanno classe 
+mieidiv e a tutti glil elementi .mieidiv e a tutti gli elementi con classe .titolo*/
+.titolo,.mieidiv{
+
+    background-color:red;
+}
+
+/*   ~   https://www.html.it/pag/19443/selettori-di-attributo/   */
+
+a[title]{
+    color:chartreuse;
+}
+/*Punteggio 12 si applica ai td discendenti di tr,tr che deve essere il quarto figlio
+rispetto al proprio padre,la gestione dei figli è abase 1,il numero dei figli è n*/
+/* tr:nth-child(3n+2) td:nth-child(2n)
+{
+    background-color: yellow
+} */
+
+tr:nth-last-child(2)
+{
+    background-color: yellow
+}
+
+tr:last-child
+{
+    background-color: blueviolet
+}
+
+div>p {
+    background-color:darkolivegreen
+}
+
+/*figli dispari di div*/
+/* div>p:nth-child(2n+1) {
+    background-color: cyan
+} */
+
+/*figli dispari di div*/
+div>p:nth-of-type(2n+1) {
+    background-color: green
+}
+
+input:checked {margin-left: 20px;}
+
+article{
+    padding:10px;
+    border-radius: 20px 40px 60px 80px;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    color: blue;
+}

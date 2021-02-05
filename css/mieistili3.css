@@ -1,0 +1,44 @@
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+/* Si applica a tutti gli elementi ul che hanno la classe main menù */
+ul.main-menu {
+	display: flex;
+	display: -webkit-flex;
+}
+/* .main-menu {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+} */
+.menu-link {
+	font-weight: bold;
+	color: rgb(255, 0, 0);
+	display:block;
+	padding: 10px;
+}
+.menu-link:hover {
+	background-color: #51caf3;
+	color: #fff;
+}
+
+/* Stili navigazione varianti  */
+
+.end {
+	justify-content: flex-end;
+}
+
+.center {
+	justify-content: center;
+}
+.between {
+	justify-content: space-between;
+}
+.around {
+	justify-content: space-around;
+}

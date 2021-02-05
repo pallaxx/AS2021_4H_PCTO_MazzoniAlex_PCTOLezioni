@@ -1,0 +1,51 @@
+#secondodiv{
+    /*imposto il colore del div id secondodiv a verde*/
+    background-color: rgb(219, 23, 209);
+}
+
+.primodiv{background-color: red;width: 60%;}
+
+.mieidiv{
+    width: 75%;
+    background-color: rgb(10, 119, 221);
+}
+#quintodiv{
+    background-color: yellow;
+    border: 3px solid red;
+}
+#mioarticle{
+    
+    border: 3px dotted black;
+}
+
+/* la regola ha punteggiosi applica il tag div ai discendenti  */
+div section 
+{
+    margin: 25px;
+}
+section > article 
+{
+    padding-top: 60px;
+    display:none;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited,a:link,a:focus{
+    color: black;
+}
+
+.linkmenu li{
+    text-align: center;
+    display: grid; 
+    padding:8px;
+    margin: 10px;
+    background-color: chartreuse;
+    border: 1px solid black;
+}
